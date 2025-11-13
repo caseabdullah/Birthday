@@ -108,4 +108,5 @@ body {
 #baloon1{
     width: 200px;
     height: 500px;
+     animation: hey 3s ease;
 }
