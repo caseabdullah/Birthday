@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap" rel="stylesheet">
+    <title>Birthday Special</title>
+    <link rel="stylesheet" href="birthday.css">
+</head>
+<body>
+    <img src="/c9vr_323v_140917-removebg-preview.png" alt="Balloon" id="baloon1">
+    <div class="hey" id="hey">
+        <p class="first">Hey!! It's 15 November!</p>
+        <p class="back">You Know What Comes!<br> I Remember What Comes
+        You'r Birthday! Silly!</p>
+    </div>
+    <div class="container" id="all">
+        <div onclick="toggle()" class="button" id="all">
+            Click Here Birthday Girl
+            <p class="gift"> 🎁</p>
+        </div>
+        <div class="bd-cont" id="cont">
+            <h1 class="bd-hd">Happy Birthday Dear SFN,</h1>
+            <p class="text">
+
+                Happy Birthday to one of the kindest, funniest, and most genuine people I know! 🎉
+
+            You’ve brought so much happiness to everyone around you, your laughter, your energy, and your ability to make even the smallest moments unforgettable.
+            
+            I hope this birthday gives you back all the love and joy you’ve shared with others. May your day be filled with delicious cake, good vibes, and the best company. And as you step into another year, may it bring you new opportunities, new adventures, and countless reasons to smile.
+             Here’s to another amazing year ahead 🥳🎂 May you live long And Have all Happiness.
+            </p>
+           
+        </div>
+    </div>
+    <script>
+        function toggle(){
+            var x=document.getElementById("cont");
+            var y=document.getElementById("all");
+
+            if(x.style.display==="none"){
+                x.style.display="block";
+            }
+            else{
+                x.style.display="none"
+            }
+        }
+    </script>
+</body>
+</html>
