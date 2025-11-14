@@ -83,20 +83,18 @@ body {
     height: 500px;
     font-family: "Momo Trust Display", sans-serif;
     position: relative;
+    animation: ho 1s infinite alternate ease-in-out;
     bottom: -40px;
-    animation: hey 3s ease;
 }
 
-@keyframes hey {
+@keyframes ho {
     0%{
-        opacity: 0;
-    }
-    50%{
-        opacity:50%;
+        transform: translateY(-40px);
     }
     100%{
-        opacity: 100%;
+        transform: translateY(-10px);
     }
+    
 }
 .first{
     font-size: 50px;
@@ -108,6 +106,18 @@ body {
 .baloon{
     width: 200px;
     height: 500px;
-     animation: hey 3s ease;
+    animation: hey 3s ease;
 }
+@keyframes hey {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity:50%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
 
