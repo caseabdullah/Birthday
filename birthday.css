@@ -104,8 +104,8 @@ body {
     font-weight: lighter;
 }
 .baloon{
-    width: 200px;
-    height: 500px;
+    width: 170px;
+    height: 400px;
     animation: hey 3s ease;
 }
 @keyframes hey {
@@ -119,6 +119,7 @@ body {
         opacity: 100%;
     }
 }
+
 
 
 
