@@ -105,8 +105,9 @@ body {
     font-size: 30px;
     font-weight: lighter;
 }
-#baloon1{
+.baloon{
     width: 200px;
     height: 500px;
      animation: hey 3s ease;
 }
+
